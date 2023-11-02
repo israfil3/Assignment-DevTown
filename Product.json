@@ -1,0 +1,302 @@
+[
+    {
+      "id": 1,
+      "category": "bag",
+      "name": "Stylish Backpack",
+      "price": 49.99,
+      "description": "A versatile and stylish backpack with multiple compartments for your daily needs.",
+      "photo": "https://static-01.daraz.com.bd/p/ae5175446435c4507e6c5d1160db3df6.jpg"
+    },
+    {
+      "id": 2,
+      "category": "bag",
+      "name": "Leather Messenger Bag",
+      "price": 69.99,
+      "description": "A classic leather messenger bag for your professional needs.",
+      "photo": "https://images-eu.ssl-images-amazon.com/images/I/816gFkiTBhL._AC_SR462,693_.jpg"
+    },
+    {
+        "id": 3,
+      "category": "bag",
+      "name": "Travel Duffel Bag",
+      "price": 39.99,
+      "description": "A spacious and durable duffel bag for your travels.",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP0r7_OrwtKJ6f3-EZIIJ0rf7q96nuowd7LT_6YqVI9C_l_rhuIW4v_EfFy3nXjqXVf8Q&usqp=CAU"
+    },
+    {
+        "id": 4,
+      "category": "bag",
+      "name": "Designer Tote Bag",
+      "price": 89.99,
+      "description": "A trendy designer tote bag for your fashion statement.",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3NuYL2K6ntf564NXUwxw4sRM9sjAExv_rsVEn6u3ardYCUHp5kg0lRlMIWs_Q-HwPXZM&usqp=CAU"
+    },
+    {
+        "id": 5,
+      "category": "bag",
+      "name": "Laptop Backpack",
+      "price": 59.99,
+      "description": "A padded laptop backpack to keep your tech gear secure.",
+      "photo": "https://static-01.daraz.com.bd/p/8359e250ace82aad657bbdf86c70c7cd.jpg"
+    },
+    {
+        "id": 6,
+      "category": "bag",
+      "name": "Canvas Shoulder Bag",
+      "price": 29.99,
+      "description": "A casual canvas shoulder bag for everyday use.",
+      "photo": "https://static-01.daraz.com.bd/p/52a75716c5cbe34edd601bae6d592967.jpg"
+    },
+    {
+        "id": 7,
+      "category": "bicycle",
+      "name": "Mountain Bike",
+      "price": 299.99,
+      "description": "A rugged mountain bike for off-road adventures.",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXr4NdcWUZNCMNI1Umv9bKtx57IWHWXtbFi3hCkX5juKZdMe3emY2MC5_bYQz09SC4tMY&usqp=CAU"
+    },
+    {
+        "id": 8,
+      "category": "bicycle",
+      "name": "Road Bike",
+      "price": 399.99,
+      "description": "A sleek and speedy road bike for your cycling journeys.",
+      "photo": "https://i.shgcdn.com/14a36e2c-919f-49ba-b43a-6045bc12313a/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+    },
+    {
+        "id": 9,
+      "category": "bicycle",
+      "name": "Hybrid Bike",
+      "price": 249.99,
+      "description": "A versatile hybrid bike for city commuting and light trails.",
+      "photo": "https://raleigh-canada.ca/cdn/shop/products/0711933_a_1200x1200.jpg?v=1614268224"
+    },
+    {
+        "id": 10,
+      "category": "bicycle",
+      "name": "BMX Bike",
+      "price": 159.99,
+      "description": "A fun and agile BMX bike for tricks and jumps.",
+      "photo": "https://media.4rgos.it/s/Argos/2910253_R_SET?$Main768$&w=620&h=620"
+    },
+    {
+        "id": 11,
+      "category": "bicycle",
+      "name": "Electric Bike",
+      "price": 799.99,
+      "description": "An electric-assist bike for a smooth and effortless ride.",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT6JdYs5FwXo9nEZxaig5pRhztxyTPgFBVsiQi2OYk7LmxE55mABm12cje64mwJM7XS90&usqp=CAU"
+    },
+    {
+        "id": 12,
+      "category": "bicycle",
+      "name": "Tandem Bike",
+      "price": 499.99,
+      "description": "A tandem bike for two riders to explore together.",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyI1H-zWUzKmXG4xkhK04bqdWNVVTJxuCDag&usqp=CAU"
+    },
+    {
+        "id": 13,
+      "category": "bottle",
+      "name": "Reusable Water Bottle",
+      "price": 9.99,
+      "description": "A durable, eco-friendly water bottle to stay hydrated.",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQykrAiXnt7lQ0MmlcAgrVVRV7dCSapMMj-Gt4r1sTTxWFrk4WBAUqMo5wP6-XK1XlGH20&usqp=CAU"
+    },
+    {
+        "id": 14,
+      "category": "bottle",
+      "name": "Stainless Steel Flask",
+      "price": 14.99,
+      "description": "A sleek stainless steel flask for hot and cold beverages.",
+      "photo": "https://media.e-valy.com/cms/products/images/3ffe1441-7df0-49b4-bc22-8d5023e25512"
+    },
+    {
+        "id": 15,
+      "category": "bottle",
+      "name": "Glass Water Bottle",
+      "price": 12.99,
+      "description": "A glass water bottle with a protective silicone sleeve.",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX8PFZB0Mf_bQLNmsjq4UfRDOntE3ycLA4tCZNw-Aco6TlU-JKqH-PiI8zEaBKjZ-Zmc0&usqp=CAU"
+    },
+    {
+        "id": 16,
+      "category": "bottle",
+      "name": "Sports Water Bottle",
+      "price": 7.99,
+      "description": "A sports water bottle with a flip-top cap for easy sipping.",
+      "photo": "https://static-01.daraz.com.bd/p/78fc7857bcff38f274a34eb410075962.jpg"
+    },
+    {
+        "id": 17,
+      "category": "bottle",
+      "name": "Infuser Water Bottle",
+      "price": 11.99,
+      "description": "An infuser water bottle for adding fresh fruits to your water.",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH475xWl1Gbeh2Jb9q_z2nHRjV_1e7M3-CLcM_r_TShI9pgXtpnAj6kftFaSelIGI-nns&usqp=CAU"
+    },
+    {
+        "id": 18,
+      "category": "bottle",
+      "name": "Thermos Travel Mug",
+      "price": 16.99,
+      "description": "A thermos travel mug to keep your beverages hot or cold on the go.",
+      "photo": "https://static-01.daraz.com.bd/p/7ebe92bb10d557a4bb3fba249827eeca.jpg"
+    },
+    {
+        "id": 19,
+      "category": "bottle",
+      "name": "Collapsible Water Bottle",
+      "price": 8.99,
+      "description": "A collapsible water bottle that's easy to store when empty.",
+      "photo": "https://brandelity.com/wp-content/uploads/2020/01/collapsible-bottle-main.jpg"
+    },
+   
+    {
+        "id":20 ,
+      "category": "jacket",
+      "name": "Winter Parka",
+      "price": 79.99,
+      "description": "A warm and stylish winter parka for cold weather.",
+      "photo": "https://di2ponv0v5otw.cloudfront.net/posts/2022/03/02/621fe8943bad6d2ee8ab2f5c/m_621fe9226e28460c66738f95.jpg"
+    },
+    {
+        "id": 21,
+      "category": "jacket",
+      "name": "Leather Jacket",
+      "price": 129.99,
+      "description": "A classic leather jacket for a timeless look.",
+      "photo": "https://i5.walmartimages.com/asr/a52f2cb1-d48d-435f-bdeb-07f6cf746504.dc012deddfe87f43b1df602cead01a09.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+    },
+    {
+        "id":22 ,
+      "category": "jacket",
+      "name": "Rain Jacket",
+      "price": 59.99,
+      "description": "A waterproof rain jacket for staying dry in wet conditions.",
+      "photo": "https://www.alltoolsbd.com/wp-content/uploads/2022/04/8496dc0561ab0351d88c6cd6f6b9fb49-600x600.jpg"
+    },
+    {
+        "id":23 ,
+      "category": "jacket",
+      "name": "Denim Jacket",
+      "price": 69.99,
+      "description": "A versatile denim jacket for a casual and cool style.",
+      "photo": "https://m.media-amazon.com/images/I/61LUKCXsLLL._AC_UY1000_.jpg"
+    },
+    
+    {
+        "id":24 ,
+      "category": "jacket",
+      "name": "Ski Jacket",
+      "price": 99.99,
+      "description": "A high-performance ski jacket for your winter sports adventures.",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT_EUtsoBXOtw6VX6OMa_bNaZ4A24G0fQ28nmLQm9txtCl92aW3zFxcbqwqSKB3R3YmgM&usqp=CAU"
+    },
+    {
+        "id":25 ,
+      "category": "jacket",
+      "name": "Varsity Jacket",
+      "price": 59.99,
+      "description": "A stylish varsity jacket for a retro and athletic look.",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcMMiZ29u5MPIS-X7MMGCyi5UJUVVmVFwwkrazLDZhqI7P-soQMWstrZYR2E2DNaaCPMQ&usqp=CAU"
+    },
+    {
+        "id":26,
+        "category": "smartphone",
+        "name": "iPhone 13 Pro",
+        "price": 999.99,
+        "description": "The latest iPhone with a powerful A15 Bionic chip and Pro camera system.",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2nJm_iTRUdSis8tmo91lkdLQnIyEeBVodxqht9aYBLLoF_xU1kHPqCppKMSNHgC4QItM&usqp=CAU"
+      },
+      {
+        "id":27,
+        "category": "smartphone",
+        "name": "Samsung Galaxy S21",
+        "price": 799.99,
+        "description": "A flagship smartphone with a high-quality display and versatile camera.",
+        "photo": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s21-5g-0.jpg"
+      },
+      {
+        "id":28,
+        "category": "smartphone",
+        "name": "Redmi Note 10",
+        "price": 199.99,
+        "description": "A budget-friendly smartphone with a large display and impressive battery life.",
+        "photo": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1666350692.95218417.png"
+      },
+
+      {
+        "id":29,
+        "category": "smartphone",
+        "name": "Realme 8 Pro",
+        "price": 249.99,
+        "description": "A mid-range smartphone with a high-resolution camera and fast charging.",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz3FORBm9282X4mEDFxcGfp-ZjDgtJ8mZiWZ_gTucrmf3LgsRb8-fcU6xe52062yFGTsk&usqp=CAU"
+      },
+      
+      {
+        "id":30,
+        "category": "smartphone",
+        "name": "Asus ROG Phone 5",
+        "price": 699.99,
+        "description": "A gaming smartphone with a high-refresh-rate display and powerful hardware.",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNpAMiMNGqj5l1MqRMZVBSZfK1wXQWSTEnpA&usqp=CAU"
+      },
+      {
+        "id":31,
+        "category": "smartphone",
+        "name": "Motorola Moto G Power (2022)",
+        "price": 229.99,
+        "description": "A budget-friendly smartphone with a large battery for long-lasting usage.",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsYqMBeav3SdXH003Bw5Hz_35EZ4a6z7S2oQ&usqp=CAU"
+      },       
+      {
+        "id":32,
+      "category": "watch",
+      "name": "Luxury Swiss Watch",
+      "price": 2999.99,
+      "description": "A luxury Swiss watch with precision movement and elegant design.",
+      "photo": "https://www.watchswiss.com/wp-content/uploads/2018/01/1029_5watchconcept.jpg"
+     },
+    {
+        "id":33,
+      "category": "watch",
+      "name": "Sport Smartwatch",
+      "price": 199.99,
+      "description": "A sport smartwatch with fitness tracking and built-in GPS.",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd4FY_UyBwoi2hIdRlrwfV3NOdKGXF7H6-ew&usqp=CAU"
+    },
+    {
+        "id":34,
+      "category": "watch",
+      "name": "Fitness Tracker Watch",
+      "price": 89.99,
+      "description": "A fitness tracker watch with heart rate monitoring and sleep tracking.",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRINQVQJVUJxT3I5pEP0OMXQT1anIA7yAUOIA&usqp=CAU"
+    },
+    {
+        "id":35,
+      "category": "watch",
+      "name": "Solar-Powered Watch",
+      "price": 129.99,
+      "description": "A solar-powered watch with eco-friendly charging and durability.",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYn_F0bZXo9zo9iyCJ0r_vY04m058OZBaZjw&usqp=CAU&reload=on"
+    },
+    {
+        "id":36,
+      "category": "watch",
+      "name": "Aviator Watch",
+      "price": 279.99,
+      "description": "An aviator watch with a rugged design and aviation-inspired features.",
+      "photo": "https://mohammadandsons.com/wp-content/uploads/2021/08/AVW78531G415.jpg"
+    },
+    {
+    "id":37 ,
+      "category": "watch",
+      "name": "Fashion Watch",
+      "price": 79.99,
+      "description": "A trendy fashion watch with a unique and stylish appearance.",
+      "photo": "https://images.othoba.com/images/thumbs/0505097_trsoye-trs-838-mens-watch-waterproof-fashion-watch.webp"
+    }
+  ]
