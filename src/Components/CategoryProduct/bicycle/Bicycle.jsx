@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { DivA, DivP, Img, P } from "../../../ProductStyle";
+import { DivA, DivP, H4, Img, P } from "../../../ProductStyle";
 const Bicycle = () => {
     const [product, setProduct] = useState([]);
     useEffect(() => {
@@ -18,7 +18,7 @@ const Bicycle = () => {
                     <Img src={products.photo} alt="product img" />
                     <h3>Name: {products.name}</h3>
                     <P>Description: {products.description}</P>
-                    <h3>Price: {products.price}$</h3>
+                    <H4>Price: {products.price}$</H4>
                 </DivP>
             ))}
         </DivA>

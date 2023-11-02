@@ -36,6 +36,11 @@ export const breakpoints = {
             margin: 0px auto;
   
   `
+  export const H4 = styled.h3`
+            background-color: rgba(15, 201, 15, 0.444);
+            border-radius:0px 0px 10px 10px;
+            padding-top: 5px;
+     `
 
   export const DivP = styled.div`
         width: 300px;
@@ -50,11 +55,16 @@ export const DivA = styled.div`
         display: grid;
         align-items: center;
         justify-content: center;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(4,1fr);
         gap: 10px 10px;
-      
-
-
+        ${media.medium`
+        grid-template-columns: repeat(2,1fr);
+        `
+          }
+          ${media.small`
+          grid-template-columns: repeat(1,1fr);
+          `
+          }          
 `
 export const P = styled.p`
     margin: 10px 0px;
@@ -69,6 +79,33 @@ export const H1 = styled.h1`
       margin-top: 20px;
 `
 export const Select = styled.select`
-      padding: 7px 10px;
+      padding: 2px 10px;
+      font-size: 17px;
+
+`
+export const Option = styled.option`
+      padding: 3px 7px;
+      font-size: 18px;
+
+`
+export const  ShortD = styled.div`
+      text-align: right;
+      margin:0px 15%;
+      ${media.small`
+      margin:0px 20%;
+      
+      `
+      }
+
+`
+export const  ShortC = styled.div`
+     margin:20px 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+`
+export const Label = styled.label`
+
+    font-size: 20px;
 
 `

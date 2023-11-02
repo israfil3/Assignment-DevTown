@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
-import { DivA, DivP, Img, P } from "../../ProductStyle";
+import { DivA, DivP, H4, Img, Label, Option, P, Select, ShortD } from "../../ProductStyle";
 import ReactPaginate from "react-paginate";
+import './AllProduct.css'
 
 const AllProduct = () => {
-    const itemsPerPage = 10; // Number of items per page
+    const itemsPerPage = 9;
     const [product, setProduct] = useState([]);
     const [sortCriteria, setSortCriteria] = useState("");
-    const [currentPage, setCurrentPage] = useState(0); // Current page for pagination
+    const [currentPage, setCurrentPage] = useState(0); 
     const [sortedProducts, setSortedProducts] = useState([]);
 
     useEffect(() => {
@@ -14,7 +15,7 @@ const AllProduct = () => {
             .then(res => res.json())
             .then(data => {
                 setProduct(data);
-                setSortedProducts(data); // Initialize sorted products with the original data
+                setSortedProducts(data); 
             });
     }, []);
 
@@ -26,7 +27,7 @@ const AllProduct = () => {
             const sortedByPrice = [...product].sort((a, b) => a.price - b.price);
             setSortedProducts(sortedByPrice);
         } else {
-            setSortedProducts(product); // Reset to the original order when no sorting is applied
+            setSortedProducts(product);
         }
     }, [sortCriteria, product]);
 
@@ -39,23 +40,24 @@ const AllProduct = () => {
 
     return (
         <>
-          <div className="">
-          <select
+          <ShortD>
+          <Label htmlFor="trimSelect">Select Trim:</Label>
+          <Select
                 value={sortCriteria}
                 onChange={(e) => setSortCriteria(e.target.value)}
             >
-                <option value="">Sort by:</option>
-                <option value="name">Name</option>
-                <option value="price">Price</option>
-            </select>
-          </div>
+                <Option value="">Sort by</Option>
+                <Option value="name">Name</Option>
+                <Option value="price">Price</Option>
+            </Select>
+          </ShortD>
         <DivA>
             {currentItems.map((products) => (
                 <DivP key={products.id}>
                     <Img src={products.photo} alt="product img" />
                     <h3>Name: {products.name}</h3>
                     <P>Description: {products.description}</P>
-                    <h3>Price: {products.price}$</h3>
+                    <H4>Price: {products.price}$</H4>
                 </DivP>
             ))}
 

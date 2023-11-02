@@ -6,7 +6,7 @@ import Bottle from "../CategoryProduct/Bottle/Bottle";
 import Jacket from "../CategoryProduct/Jacket/Jacket";
 import Smartphone from "../CategoryProduct/smartphone/Smartphone";
 import Watch from "../CategoryProduct/watch/Watch";
-import { DivC, H1, Select } from "../../ProductStyle";
+import { DivC, H1, Label, Option, Select, ShortC } from "../../ProductStyle";
 
 const Category = () => {
     const [selectProduct, setSelectProduct] = useState('allProduct')
@@ -21,24 +21,25 @@ const Category = () => {
             <hr />
             <hr />
        </div>
-        <DivC>
-          <div className="">
-            <label htmlFor="trimSelect">Select Trim:</label>
+       <ShortC>
+            <Label htmlFor="trimSelect">Select Trim:</Label>
             <Select
               className="rounded"
               id="trimSelect"
               value={selectProduct}
               onChange={handleProductChange}
             >
-              <option value="allProduct">AllProduct</option>
-              <option value="bag">Bag</option>
-              <option value="bicycle">Bicycle</option>
-              <option value="bottle">Bottle</option>
-              <option value="jacket">Jacket</option>
-              <option value="smartphone">Smartphone</option>
-              <option value="watch">Watch</option>
+              <Option
+               value="allProduct">AllProduct</Option>
+              <Option value="bag">Bag</Option>
+              <Option value="bicycle">Bicycle</Option>
+              <Option value="bottle">Bottle</Option>
+              <Option value="jacket">Jacket</Option>
+              <Option value="smartphone">Smartphone</Option>
+              <Option value="watch">Watch</Option>
             </Select>
-          </div>
+          </ShortC>
+        <DivC>
           <div className="">
           {selectProduct === "allProduct" ? <AllProduct /> : selectProduct === "bag" ? <Bag /> : selectProduct === "bicycle" ? <Bicycle /> : selectProduct === "bottle"? <Bottle></Bottle>: selectProduct === "jacket"? <Jacket></Jacket>: selectProduct === "smartphone"?<Smartphone></Smartphone>:selectProduct ==="watch"? <Watch></Watch>:null}
           </div>
