@@ -82,5 +82,49 @@ export const LotImg  = styled.div`
 
 `
 
+export const FooterS  = styled.div`
+              display: flex;
+              align-items: center;
+              background-color: rgba(0, 128, 0, 0.424);
+              justify-content: center;
+              gap: 150px;
+              ${media.small`
+              flex-direction: column;
+              gap: 10px;
+              align-items: left;
+              justify-content: left;
+              width: 100%;
+              `
 
+              }
+       `
 
+export const Pf = styled.p`
+        font-size: 20px;
+        margin: 10px 0px;
+        `
+export const DivPo = styled.div`
+            font-size: 20px;
+            margin: 10px 0px;
+           
+`
+  export const Input = styled.input`
+            font-size: 20px;
+           padding: 6px 8px;
+           border-radius: 7px;
+           margin: 0px 5px;
+           
+   `
+  export const Icon = styled.div`
+       font-size: 25px;
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       margin: 6px 0px;
+       color: white
+`
+
+export const DivLA = styled.div`
+        text-align: center;
+        padding: 10px 0px;
+        background-color: rgba(0, 128, 0, 0.510);
+`

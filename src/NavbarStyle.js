@@ -33,7 +33,7 @@ export const Nav = styled.nav`
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: rgba(0, 0, 0, 0.252);
+        background-color: rgba(0, 128, 0, 0.38);
         padding: 10px 30px;
 
 `
@@ -43,16 +43,16 @@ export const Ul = styled.ul`
         justify-content: center;
 
 `
-export const Li = styled.li`
+  export const Li = styled.li`
    padding: 0px 20px;
    position: relative;
    list-style: none;
 
 `
-export const Links = styled.a`
-font-size: 20px;
-font-weight: 1.3rem;
-`
+   export const Links = styled.a`
+    font-size: 20px;
+    font-weight: 1.3rem;
+  `
 export const NavStyle = styled.div`
         display: flex;
         justify-content: center;

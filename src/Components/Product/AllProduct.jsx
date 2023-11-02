@@ -41,7 +41,7 @@ const AllProduct = () => {
     return (
         <>
           <ShortD>
-          <Label htmlFor="trimSelect">Select Trim:</Label>
+          <Label htmlFor="trimSelect">Sort product:</Label>
           <Select
                 value={sortCriteria}
                 onChange={(e) => setSortCriteria(e.target.value)}
