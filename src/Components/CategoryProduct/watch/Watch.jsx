@@ -4,7 +4,7 @@ import { DivA, DivP, H4, Img, P } from "../../../ProductStyle"
 const Watch = () => {
     const [product, setProduct] = useState([]);
     useEffect(() => {
-        fetch('product.json')
+        fetch('/product.json')
             .then(res => res.json())
             .then(data => {
                 const bagProducts = data.filter((product) => product.category === "watch");

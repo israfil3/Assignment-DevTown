@@ -10,7 +10,8 @@ const AllProduct = () => {
     const [currentPage, setCurrentPage] = useState(0); 
     const [sortedProducts, setSortedProducts] = useState([]);
     useEffect(() => {
-        fetch('product.json')
+       
+        fetch('/product.json')
             .then(res => res.json())
             .then(data => {
                 setProduct(data);
