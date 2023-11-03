@@ -4,10 +4,10 @@ import { DivA, DivP, H4, Img, P } from "../../../../ProductStyle";
 const Bottle = () => {
     const [product, setProduct] = useState([]);
     useEffect(() => {
-        fetch('myProduct.json')
+       fetch('https://api.jsonbin.io/v3/b/6544e7a80574da7622c18276')
             .then(res => res.json())
             .then(data => {
-                const bagProducts = data.filter((product) => product.category === "bottle");
+                const bagProducts = data.record.filter((product) => product.category === "bottle");
                 setProduct(bagProducts);
             });
     }, []);

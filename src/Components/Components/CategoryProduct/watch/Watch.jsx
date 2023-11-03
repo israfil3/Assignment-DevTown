@@ -7,7 +7,7 @@ const Watch = () => {
         fetch('/myProduct.json')
             .then(res => res.json())
             .then(data => {
-                const bagProducts =  data.record.filter((product) => product.category === "watch");
+                const bagProducts = data.filter((product) => product.category === "watch");
                 setProduct(bagProducts);
             });
     }, []);

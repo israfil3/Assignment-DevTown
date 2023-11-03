@@ -17,7 +17,7 @@ const AllProduct = () => {
                 setSortedProducts(data); 
             });
     }, []);
-  console.log(product)
+
     useEffect(() => {
         if (sortCriteria === "name") {
             const sortedByName = [...product].sort((a, b) => a.name.localeCompare(b.name));

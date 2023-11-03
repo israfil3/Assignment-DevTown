@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
-import { DivA, DivP, H4, Img, P } from "../../../../ProductStyle"
+import { DivA, DivP, H4, Img, P } from "../../../../ProductStyle";
 
-const Watch = () => {
+const Smartphone = () => {
     const [product, setProduct] = useState([]);
     useEffect(() => {
-        fetch('/myProduct.json')
+        fetch('myProduct.json')
             .then(res => res.json())
             .then(data => {
-                const bagProducts =  data.record.filter((product) => product.category === "watch");
+                const bagProducts = data.filter((product) => product.category === "smartphone");
                 setProduct(bagProducts);
             });
     }, []);
@@ -25,4 +25,4 @@ const Watch = () => {
     );
 };
 
-export default Watch;
+export default Smartphone;

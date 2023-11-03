@@ -41,9 +41,7 @@ export const H1 = styled.h1`
    font-size : 20px;
    margin: 10px 0px;
 
-
 `
-
    export const Div = styled.div`
        display: flex;
        align-items: center;
@@ -80,7 +78,6 @@ export const LotImg  = styled.div`
        }
 
 `
-
 export const FooterS  = styled.div`
               display: flex;
               align-items: center;

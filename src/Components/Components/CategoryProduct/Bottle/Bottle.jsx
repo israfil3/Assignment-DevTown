@@ -1,16 +1,16 @@
 import { useEffect, useState } from "react";
 import { DivA, DivP, H4, Img, P } from "../../../../ProductStyle";
-const Bicycle = () => {
+
+const Bottle = () => {
     const [product, setProduct] = useState([]);
     useEffect(() => {
-       fetch('https://api.jsonbin.io/v3/b/6544e7a80574da7622c18276')
+        fetch('myProduct.json')
             .then(res => res.json())
             .then(data => {
-                const bagProducts = data.record.filter((product) => product.category === "bicycle");
+                const bagProducts = data.filter((product) => product.category === "bottle");
                 setProduct(bagProducts);
             });
     }, []);
-
     return (
         <DivA className="">
             {product.map((products) => (
@@ -25,4 +25,4 @@ const Bicycle = () => {
     );
 };
 
-export default Bicycle;
+export default Bottle;
