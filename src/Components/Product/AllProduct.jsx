@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { DivA, DivP, H4, Img, Label, Option, P, Select, ShortD } from "../../ProductStyle";
+import { DivA, DivP, H4, Img, Label, Option, P, Select, ShortD } from "../../../ProductStyle";
 import ReactPaginate from "react-paginate";
 import './AllProduct.css'
 

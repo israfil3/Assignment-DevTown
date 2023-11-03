@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { DivA, DivP, H4, Img, P } from "../../../ProductStyle"
+import { DivA, DivP, H4, Img, P } from "../../../../ProductStyle"
 
 const Watch = () => {
     const [product, setProduct] = useState([]);

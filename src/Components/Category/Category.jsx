@@ -6,7 +6,7 @@ import Bottle from "../CategoryProduct/Bottle/Bottle";
 import Jacket from "../CategoryProduct/Jacket/Jacket";
 import Smartphone from "../CategoryProduct/smartphone/Smartphone";
 import Watch from "../CategoryProduct/watch/Watch";
-import { DivC, H1, Label, Option, Select, ShortC } from "../../ProductStyle";
+import { DivC, H1, Label, Option, Select, ShortC } from "../../../ProductStyle";
 
 const Category = () => {
     const [selectProduct, setSelectProduct] = useState('allProduct')
