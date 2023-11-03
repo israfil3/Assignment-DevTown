@@ -9,9 +9,8 @@ const AllProduct = () => {
     const [sortCriteria, setSortCriteria] = useState("");
     const [currentPage, setCurrentPage] = useState(0); 
     const [sortedProducts, setSortedProducts] = useState([]);
-
     useEffect(() => {
-        fetch('Product.json')
+        fetch('product.json')
             .then(res => res.json())
             .then(data => {
                 setProduct(data);

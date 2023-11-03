@@ -1,4 +1,4 @@
-import israfil2 from '../../../Israfil1.json'
+import israfil2 from '../../../aJson/Israfil1.json'
 
 import Lottie from 'lottie-react';
 import { Button, Div, H1, LotImg, P } from '../../HomepageStyle';

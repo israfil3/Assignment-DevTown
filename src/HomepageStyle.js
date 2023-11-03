@@ -77,7 +77,6 @@ export const LotImg  = styled.div`
        ${media.small`
             width: 100%;
        `
-
        }
 
 `
